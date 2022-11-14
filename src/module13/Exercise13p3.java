@@ -9,7 +9,7 @@ import java.lang.reflect.Type;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Exercise13_3  {
+public class Exercise13p3 {
     public static void main(String[] args) throws IOException {
         String url = "https://jsonplaceholder.typicode.com/users/1/todos";
         String response = Jsoup.connect(url)
